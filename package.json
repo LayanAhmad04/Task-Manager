@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LayanAhmad04/Task-Manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LayanAhmad04/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/LayanAhmad04/Task-Manager#readme",
+  "private": "true",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
